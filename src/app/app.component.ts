@@ -10,14 +10,14 @@ export class AppComponent implements OnInit {
 
   AVc = 'a';
 
-  @Input('test') count = 0;
+  @Input() count = 0;
 
   ngOnInit() {
     let abc = 0;
-    console.log({ abc });
+    // console.log({ abc });
   }
 
   public run() {
-    debugger;
+    // debugger;
   }
 }
