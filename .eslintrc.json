@@ -34,6 +34,13 @@
       }
     },
     {
+      "files": ["*.ts"],
+      "rules": {
+        "no-console": 2,
+        "no-debugger":2
+      }
+    },
+    {
       "files": ["*.html"],
       "extends": ["plugin:@angular-eslint/template/recommended"],
       "rules": {}
